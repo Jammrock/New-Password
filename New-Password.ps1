@@ -1,6 +1,7 @@
 
 # FUNCTION  : New-Password
 # PURPOSE   : Generates a cryptographically strong secure password.
+# based on code by Michael J. Lyons: https://www.linkedin.com/in/michael-lyons-4b6125121/
 
 function New-Password
 {
@@ -12,7 +13,7 @@ function New-Password
 
     Write-Verbose "New-Password: Starting."
     # create the set of characters that will be used for the secure key
-    Write-Verbose "New-Password: Generating base characters for SecureKey."
+    Write-Verbose "New-Password: Generating base characters for secure password."
 
     if ($length -lt 8)
     {
