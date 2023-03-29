@@ -3,7 +3,7 @@
 # PURPOSE   : Generates a cryptographically strong secure password.
 # based on code by Michael J. Lyons: https://www.linkedin.com/in/michael-lyons-4b6125121/
 
-function Global:New-Password
+function New-Password
 {
     # how many characters are in the secure key
     [CmdletBinding()]
